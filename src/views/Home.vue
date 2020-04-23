@@ -7,21 +7,11 @@
           </el-carousel-item>
         </el-carousel>
       </div>
-      <div id="container"></div>
+    <div>新增内容</div>
   </div>
 </template>
 
 <script>
-
-window.onLoad  = function(){
-        var map = new AMap.Map('container');
-  }
-  var url = 'https://webapi.amap.com/maps?v=1.4.15&key=7821b45dea2746676df86a75781055e7&callback=onLoad';
-  var jsapi = document.createElement('script');
-  jsapi.charset = 'utf-8';
-  jsapi.src = url;
-  document.head.appendChild(jsapi);
-
 import mynav from '../components/nav_bar'
 export default {
   name: 'Home',
